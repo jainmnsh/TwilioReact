@@ -53,7 +53,7 @@ app.get("/token", function(request, response) {
 });
 
 
-var port = process.env.PORT || 3000;
+var port = process.env.UI_SERVICE_PORT || 3000;
 app.listen(port, function() {
     console.log("Express server listening on *:" + port);
 });
